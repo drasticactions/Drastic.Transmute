@@ -1,4 +1,10 @@
-# Transmute
+# Drastic.Transmute
+
+Drastic.Transmute is a port of Transmute to .NET. It supports .NET Standard 2.0 and .NET 8.0 (Standard, iOS, Catalyst, tvOS, and Android).
+
+This exists to port other libraries that depend on it. If you depend on this library, it would be best to fork this library yourself and build on it, or switch to something else. YMMV.
+
+## Original Readme.
 
 It's very common to convert data from a type to another and there's plenties of APIs to achieve it in .NET. **Transmute** was created to have a single centralized channel for all conversions.
 
@@ -6,7 +12,7 @@ It's very common to convert data from a type to another and there's plenties of 
 
 Available on NuGet
 
-[![NuGet](https://img.shields.io/nuget/v/Transmute.svg?label=NuGet)](https://www.nuget.org/packages/Transmute/)
+[![NuGet](https://img.shields.io/nuget/v/Drastic.Transmute.svg?label=NuGet)](https://www.nuget.org/packages/Drastic.Transmute/)
 
 ## Quickstart
 

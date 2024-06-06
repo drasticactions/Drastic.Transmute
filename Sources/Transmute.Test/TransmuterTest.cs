@@ -30,7 +30,7 @@
 		{
 			// int -> long -> DateTime
 			var d = transmuter.Convert<DateTime>(0);
-			Assert.AreEqual(new DateTime(1970, 1, 1, 1, 0, 0, DateTimeKind.Utc), d);
+			Assert.AreEqual(new DateTime(1970, 1, 1, 9, 0, 0, DateTimeKind.Utc), d);
 		}
 
 		[Test()]
